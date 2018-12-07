@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- appbar view -->
+    <include layout="@layout/appbar" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/button_fullscreen"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="top"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="65dp"
+        android:gravity="top"
+        android:src="@drawable/baseline_fullscreen_white_48"
+        app:fabSize="auto" />
+
+</android.support.design.widget.CoordinatorLayout>
