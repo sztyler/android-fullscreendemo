@@ -40,7 +40,7 @@ public class ButtonClickListener implements View.OnClickListener {
         } else {
             int visibility = View.SYSTEM_UI_FLAG_VISIBLE;
             main.setSystemUiVisibility(visibility);
-            main.setBackgroundResource(R.color.colorPrimary);
+            main.setBackgroundResource(Color.WHITE);
 
             if (appbar != null) {
                 appbar.setExpanded(true, false);
